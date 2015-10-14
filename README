@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5258
+
+The purpose of this project is to maintain missing Gradle capabilities in Vim. Particularly:
+
+* File extension recognition
+* Syntax highlighting
+* Folding
+* Ctags support for Tagbar plugin
+
+Additionally, some missing Groovy features are provided as well:
+
+* Folding for Groovy files
+* Groovy Ctags support for Tagbar plugin
+
+The home page of the project and Mercurial repository:
+
+https://bitbucket.org/sw-samuraj/vim-gradle

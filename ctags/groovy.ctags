@@ -1,0 +1,7 @@
+--langdef=Groovy
+--langmap=Groovy:.groovy
+--regex-Groovy=/^\s*package\s+([a-zA-Z0-9.-_]+)/\1/p,package/
+--regex-Groovy=/^\s*(abstract)?\s*(private|public)?\s*class\s+([A-Za-z0-9_]+)\s+/\3/c,class/
+--regex-Groovy=/^\s*(def|String|void)\s+([a-zA-Z0-9_]+\([A-Za-z0-9 _]*\))\s+/\2/m,method/
+--regex-Groovy=/^\s*(def|String|File)\s+([a-zA-Z0-9_]+)$/\2/f,field/
+--regex-Groovy=/^\s*(def|String|File)\s+([a-zA-Z0-9_]+)\s+=/\2/f,field/

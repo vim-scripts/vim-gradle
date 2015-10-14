@@ -1,0 +1,3 @@
+--langdef=Gradle
+--langmap=Gradle:.gradle
+--regex-Gradle=/^\s*task\s+([a-zA-Z0-9]+)/\1/t,task/
